@@ -31,9 +31,13 @@ Skills de repositório orientam o trabalho; elas não concedem acesso ao workspa
 
 ## Instalação no Codex
 
-Depois de escolher a skill, instale-a pelo mecanismo de skills do seu ambiente apontando para este repositório e informe o nome canônico da pasta. Exemplo de intenção: instalar `prd-builder` a partir de `dualpixel-digital/agent-skills`.
+No cliente `skills`, instale uma skill pelo nome canônico:
 
-Confirme o comando de instalação na documentação do seu cliente Codex e verifique a skill instalada antes do primeiro uso; o formato de distribuição pode variar entre clientes e versões.
+```bash
+npx skills add dualpixel-digital/agent-skills --skill prd-builder -g
+```
+
+Substitua `prd-builder` por `spec-builder`, `vibeux-design`, `workflow-builder` ou `secure-code`. Confirme a skill instalada antes do primeiro uso; outros clientes Codex podem ter um mecanismo de distribuição diferente.
 
 ## Skills publicadas
 
